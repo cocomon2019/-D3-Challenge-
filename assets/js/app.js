@@ -68,7 +68,7 @@ d3.csv("./assets/data/data.csv").then(function (data) {
     .attr("cx", d => xLinearScale(d.poverty))
     .attr("cy", d => yLinearScale(d.healthcare))
     .attr("r", 18)
-    .attr("fill", "purple")
+    .attr("fill", "green")
     .attr("opacity", ".3");
 
   // text with in circles
